@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.landing {
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+
+.bg-gradient {
+    /* background-color: red; */
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(30deg, rgb(168, 27, 180), rgb(50, 11, 106));
+}
+
+.container{
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    left: -10%;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 80px;
+    font-weight: 30px;
+    
+}
+.courses-1, .courses-2{
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    margin-top: 50px;
+    gap: 70px;
+
+}
+button{
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: left;
+    font-size: 20px;
+}
+.images{
+    /* width: 30px; */
+    height: 30px;
+    padding-right: 20px;
+}
